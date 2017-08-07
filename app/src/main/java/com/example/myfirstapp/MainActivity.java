@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < input.size(); i++) {
             output = output+"\n" + input.get(i);
         }
+        output+="\n\n";
         return output;
     }
 }
